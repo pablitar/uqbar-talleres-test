@@ -1,0 +1,822 @@
+{
+	"data": [
+		{
+			"name": "scroll_up",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "General",
+			"target": ["single", "archive"],
+			"gui": {
+				"display_name": "Scroll To Top",
+				"type": "select",
+				"values": [
+					{
+						"text": "Disabled",
+						"value": "false"
+					},
+					{
+						"text": "Enabled",
+						"value": "true"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "comment_form_before_list",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "General",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Move Comments input above comment list.",
+				"type": "select",
+				"values": [
+					{
+						"text": "Disabled",
+						"value": "false"
+					},
+					{
+						"text": "Enabled",
+						"value": "true"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "header_sticky",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Header",
+			"target": ["single", "archive"],
+			"gui": {
+				"display_name": "Sticky Header",
+				"type": "select",
+				"values": [
+					{
+						"text": "No",
+						"value": "no"
+					},
+					{
+						"text": "Yes - Only Main Row",
+						"value": "main"
+					},
+					{
+						"text": "Yes - Top Row & Main Row",
+						"value": "top_main"
+					},
+					{
+						"text": "Yes - Whole Header",
+						"value": "top_main_bottom"
+					},
+					{
+						"text": "Yes - Only Top Row",
+						"value": "top"
+					},
+					{
+						"text": "Yes - Only Bottom Row",
+						"value": "bottom"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "transparent_header_enable",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Header",
+			"target": ["single", "archive"],
+			"gui": {
+				"display_name": "Enable Transparent Header",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "footer_html_content",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Footer",
+			"target": ["single", "archive"],
+			"gui": {
+				"display_name": "Footer Copyright HTML",
+				"type": "text"
+			},
+			"default_value": "{copyright} {year} {site-title} {theme-credit}"
+		},
+		{
+			"name": "page_title",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Page Title",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_title_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Page Title Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "In Content",
+						"value": "normal"
+					},
+					{
+						"text": "Above Content",
+						"value": "above"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_title_inner_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Title Container Width",
+				"type": "select",
+				"values": [
+					{
+						"text": "Standard",
+						"value": "standard"
+					},
+					{
+						"text": "Full Width",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Contained",
+						"value": "contained"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Default Page Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "Normal",
+						"value": "normal"
+					},
+					{
+						"text": "Narrow",
+						"value": "narrow"
+					},
+					{
+						"text": "FullWidth",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Left Sidebar",
+						"value": "left"
+					},
+					{
+						"text": "Right Sidebar",
+						"value": "right"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_content_style",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Content Style",
+				"type": "select",
+				"values": [
+					{
+						"text": "Boxed",
+						"value": "boxed"
+					},
+					{
+						"text": "Unboxed",
+						"value": "unboxed"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_vertical_padding",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Content Vertical Padding",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "show"
+					},
+					{
+						"text": "Disable",
+						"value": "hide"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_feature",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Featured Image",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "page_comments",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Page Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Comments",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_title",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Post Title",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_title_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Post Title Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "In Content",
+						"value": "normal"
+					},
+					{
+						"text": "Above Content",
+						"value": "above"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_title_inner_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Title Container Width",
+				"type": "select",
+				"values": [
+					{
+						"text": "Standard",
+						"value": "standard"
+					},
+					{
+						"text": "Full Width",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Contained",
+						"value": "contained"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Default Post Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "Normal",
+						"value": "normal"
+					},
+					{
+						"text": "Narrow",
+						"value": "narrow"
+					},
+					{
+						"text": "FullWidth",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Left Sidebar",
+						"value": "left"
+					},
+					{
+						"text": "Right Sidebar",
+						"value": "right"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_content_style",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Content Style",
+				"type": "select",
+				"values": [
+					{
+						"text": "Boxed",
+						"value": "boxed"
+					},
+					{
+						"text": "Unboxed",
+						"value": "unboxed"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_vertical_padding",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Content Vertical Padding",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "show"
+					},
+					{
+						"text": "Disable",
+						"value": "hide"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_feature",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Featured Image",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_comments",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Comments",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_comments_date",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Comment Date",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_tags",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Post Tags",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_navigation",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Post Navigation",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_related",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Related Posts",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_author_box",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Post Layout",
+			"target": ["single"],
+			"gui": {
+				"display_name": "Show Post Author Box",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_archive_title",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Archive Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Show Archive Title",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_archive_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Archive Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Archive Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "Normal",
+						"value": "normal"
+					},
+					{
+						"text": "Narrow",
+						"value": "narrow"
+					},
+					{
+						"text": "FullWidth",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Left Sidebar",
+						"value": "left"
+					},
+					{
+						"text": "Right Sidebar",
+						"value": "right"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_archive_content_style",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Archive Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Content Style",
+				"type": "select",
+				"values": [
+					{
+						"text": "Boxed",
+						"value": "boxed"
+					},
+					{
+						"text": "Unboxed",
+						"value": "unboxed"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "post_archive_columns",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Archive Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Post Archive Columns",
+				"type": "select",
+				"values": [
+					{
+						"text": "1",
+						"value": "1"
+					},
+					{
+						"text": "2",
+						"value": "2"
+					},
+					{
+						"text": "3",
+						"value": "3"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "search_archive_title",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Search Results Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Show Search Results Title",
+				"type": "select",
+				"values": [
+					{
+						"text": "Enable",
+						"value": "true"
+					},
+					{
+						"text": "Disable",
+						"value": "false"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "search_archive_layout",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Search Results Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Search Results Layout",
+				"type": "select",
+				"values": [
+					{
+						"text": "Normal",
+						"value": "normal"
+					},
+					{
+						"text": "Narrow",
+						"value": "narrow"
+					},
+					{
+						"text": "FullWidth",
+						"value": "fullwidth"
+					},
+					{
+						"text": "Left Sidebar",
+						"value": "left"
+					},
+					{
+						"text": "Right Sidebar",
+						"value": "right"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "search_archive_content_style",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Search Results Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Search Results Content Style",
+				"type": "select",
+				"values": [
+					{
+						"text": "Boxed",
+						"value": "boxed"
+					},
+					{
+						"text": "Unboxed",
+						"value": "unboxed"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		},
+		{
+			"name": "search_archive_columns",
+			"type": ["customizer"],
+			"global_key": "theme_mods_kadence",
+			"group": "Search Results Layout",
+			"target": ["archive"],
+			"gui": {
+				"display_name": "Search Results Archive Columns",
+				"type": "select",
+				"values": [
+					{
+						"text": "1",
+						"value": "1"
+					},
+					{
+						"text": "2",
+						"value": "2"
+					},
+					{
+						"text": "3",
+						"value": "3"
+					}
+				]
+			},
+			"default_value": "toolset_use_theme_setting"
+		}
+	]
+}
