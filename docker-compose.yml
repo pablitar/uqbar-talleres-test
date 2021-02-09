@@ -25,6 +25,7 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
      volumes: 
+       - ./wp-config.php:/var/www/html/wp-config.php
        - ./wp-content:/var/www/html/wp-content
    phpmyadmin:
     image: phpmyadmin
