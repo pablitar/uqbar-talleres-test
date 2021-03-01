@@ -11,30 +11,6 @@ Version: 0.0.1
 Author URI: https://github.com/pablitar
 */
 
-// This just echoes the chosen line, we'll position it later.
-function hello_dolly() {
-	$chosen = hello_dolly_get_lyric();
-	$lang   = '';
-	if ( 'en_' !== substr( get_user_locale(), 0, 3 ) ) {
-		$lang = ' lang="en"';
-	}
-
-	printf(
-		'<p id="dolly"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
-		__( 'Quote from Hello Dolly song, by Jerry Herman:' ),
-		$lang,
-		$chosen
-	);
-}
-
-// Now we set that function up to execute when the admin_notices action is called.
-//add_action( 'admin_notices', 'hello_dolly' );
-
-// We need some CSS to position the paragraph.
-
-//add_action( 'admin_head', 'dolly_css' );
-
-
 add_action('admin_menu', 'uw_register_menu');
 
 function uw_register_menu() {
@@ -134,12 +110,6 @@ function uw_get_enrolled_users_by_course($course_id) {
 	return $students;
 }
 
-/**
- * Function that groups an array of associative arrays by some key.
- * 
- * @param {String} $key Property to sort by.
- * @param {Array} $data Array that stores multiple associative arrays.
- */
 function uw_group_metas($metas) {
     $result = array();
 
